@@ -18,6 +18,7 @@ class PostList extends Component {
               <p>{post.body}</p>
             </div>
           </div>
+          {/* <UserHeader userId={} /> */}
         </div>
       );
     });
@@ -33,7 +34,6 @@ class PostList extends Component {
 }
 
 const mapStateToProps = (state) => {
-  console.log(state);
   return { posts: state.posts };
 };
 
